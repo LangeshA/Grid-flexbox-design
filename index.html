@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid-or-flexbox design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 leftblock">
+        <div class="container mt-2">
+          <div class="row">
+            <div class="col-4">
+              <img src="./images/logo.png" class="img-fluid mt-2" alt="logo" />
+            </div>
+            <div class="col-8">
+              <h3 class="headerheading  mt-2 ml-2">How to be a</h3>
+              <img src="./images/google img.png" class="img-fluid" alt="google logo" />
+            </div>
+          </div>
+          <p class="headerpara m-2">Power user</p>
+          <hr width="100%" />
+          <div class="d-flex flex-column">
+            <p class="headerfooterpara mx-5">
+              Search engines are the backbone of everyday internet use, but
+              are you aware of the hidden tips and tricks available to improve
+              your search?
+            </p>
+            <p class="greypara mx-5">
+              Here are some pointers that'll save you Googling 'how to
+              Google'.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-center m-2">
+          <img src="./images/caret-down-fill.svg" height="40vh" alt="dropdown" />
+          <h1 class="designedheader p-2">Search operators</h1>
+          <p class="greypara ">
+            Here's how to get the most out of your everyday Google searches.
+          </p>
+        </div>
+        <div class="card m-1 left-card-one">
+          <div class="card-body">
+            <h4 class="card-title-one">Search <u>exact phrases</u></h4>
+            <div class="d-flex m-2">
+              <h1 class="card-title-one-head">"Search"</h1>
+              <p class="card-title-one-para p-1 m-1">
+                If you're looking for an exact phrase, use quotation marks.
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="d-flex searchbar">
+                <p class="cardsearchbarpara p-1">"Let them eat cake"|</p>
+                <i class="bi bi-mic searchbarmic px-2"></i>
+                <i class="bi bi-search searchbarsearch px-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-two">
+          <div class="card-body">
+            <h4 class="text-end card-title-two"><u>Exclude</u> a word</h4>
+            <div class="d-flex flex-row-reverse m-2">
+              <h1 class=" d-flex justify-content-center card-title-two-head p-1 m-1"><i class="bi bi-dash"></i>Search
+              </h1>
+              <p class="card-title-two-para p-1 m-1">
+                Add a dash before a word to exclude a search term. This is
+                useful If you are searching for a word with several meanings.
+              </p>
+            </div>
+            <div class="d-flex justify-content-end"></div>
+            <div class="d-flex searchbar">
+              <p class="cardsearchbarpara p-1">inception -movie |</p>
+              <i class="bi bi-mic searchbarmic px-2"></i>
+              <i class="bi bi-search searchbarsearch px-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-three">
+          <div class="card-body">
+            <h4 class="card-title-three">Search <u>within a site</u></h4>
+            <div class="d-flex justify-content-center m-2">
+              <h1 class="card-title-three-head p-1 m-1">site:</h1>
+              <p class="card-title-three-para p-1 m-1">
+                Get results from certain domains.
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="d-flex searchbar">
+                <p class="cardsearchbarpara p-1">
+                  recipes site:theguardian.com |
+                </p>
+                <i class="bi bi-mic searchbarmic px-2"></i>
+                <i class="bi bi-search searchbarsearch px-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-four">
+          <div class="card-body">
+            <h4 class="text-end card-title-four">Search <u>similar</u></h4>
+            <div class="d-flex flex-row-reverse m-2">
+              <h1 class="card-title-four-head p-1 m-1">related:</h1>
+              <p class="card-title-four-para p-1 m-1">
+                Find sites with similar content to a URL you already know
+              </p>
+            </div>
+            <div class="d-flex searchbar">
+              <p class="cardsearchbarpara p-1">related:visual.ly |</p>
+              <i class="bi bi-mic searchbarmic px-2 
+                "></i>
+              <i class="bi bi-search searchbarsearch px-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-five">
+          <div class="card-body">
+            <h4 class="card-title-five">Search for <u>words in text</u></h4>
+            <div class="d-flex m-2">
+              <h1 class="card-title-five-head p-1 m-1">allintext:</h1>
+              <p class="card-title-five-para p-1 m-1">
+                Find pages where the all terms appear in the text
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="d-flex searchbar">
+                <p class="cardsearchbarpara p-1">
+                  allintext: holidays hot bargain |
+                </p>
+                <i class="bi bi-mic searchbarmic px-2 "></i>
+                <i class="bi bi-search searchbarsearch px-2"></i>
+              </div>
+            </div>
+            <div class="d-flex flex-row-reverse m-2">
+              <h1 class="card-title-five-head">intext:</h1>
+              <p class="card-title-five-para p-1 m-1">
+                Find pages where the one term appears in the text, and other
+                terms appear elsewhere in the document.
+              </p>
+            </div>
+            <div class="d-flex searchbar">
+              <p class="cardsearchbarpara p-1">
+                john lennon intext:liverpool |
+              </p>
+              <i class="bi bi-mic searchbarmic px-2"></i>
+              <i class="bi bi-search searchbarsearch px-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-six">
+          <div class="card-body">
+            <h4 class="card-title-six">Search <u>words in title</u></h4>
+            <div class="d-flex m-2">
+              <h1 class="card-title-six-head p-1 m-1">allintitle:</h1>
+              <p class="card-title-six-para p-1 m-1">
+                Find pages whose title contains all words in the search.
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="d-flex searchbar">
+                <p class="cardsearchbarpara p-1">
+                  allintitle: the big lebowski review |
+                </p>
+                <i class="bi bi-mic searchbarmic px-2 
+                  "></i>
+                <i class="bi bi-search searchbarsearch px-2"></i>
+              </div>
+            </div>
+            <div class="d-flex flex-row-reverse m-2">
+              <h1 class="card-title-six-head">intitle:</h1>
+              <p class="card-title-six-para p-1 m-1">
+                Find pages whose title contains a particular word in the
+                title, with other terms appearing elsewhere in the document.
+              </p>
+            </div>
+            <div class="d-flex searchbar">
+              <p class="cardsearchbarpara p-1">flu shot intitle:help |</p>
+              <i class="bi bi-mic searchbarmic px-2 "></i>
+              <i class="bi bi-search searchbarsearch px-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-seven">
+          <div class="card-body">
+            <h4 class="card-title-seven">Search <u>words in URL</u></h4>
+            <div class="d-flex m-2">
+              <h1 class="card-title-seven-head p-1 m-1">allinurl:</h1>
+              <p class="card-title-seven-para p-1 m-1">
+                Find pages with the search query mentioned in the URL
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="d-flex searchbar">
+                <p class="cardsearchbarpara p-1">allinurl: bbc news |</p>
+                <i class="bi bi-mic searchbarmic px-2"></i>
+                <i class="bi bi-search searchbarsearch px-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-eight">
+          <div class="card-body">
+            <h4 class="text-end card-title-eight">
+              Find news <u>related to a particular location</u>
+            </h4>
+            <div class="d-flex flex-row-reverse m-2">
+              <h1 class="card-title-eight-head p-1 m-1">location:</h1>
+              <p class="card-title-eight-para p-1 m-1">
+                Use this on Google News to find stories coming from a
+                particular location.
+              </p>
+            </div>
+            <div class="d-flex searchbar">
+              <p class="cardsearchbarpara p-1">
+                prince george location:auckland |
+              </p>
+              <i class="bi bi-mic searchbarmic px-2 "></i>
+              <i class="bi bi-search searchbarsearch px-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-nine">
+          <div class="card-body">
+            <h4 class="card-title-nine">
+              Search for <u>a particular filetype</u>
+            </h4>
+            <div class="d-flex m-2">
+              <h1 class="card-title-nine-head p-1 m-1">filetype:suffix</h1>
+              <p class="card-title-nine-para p-1 m-1">
+                Google will restrict results to pages that end in suffix
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="d-flex searchbar">
+                <p class="cardsearchbarpara p-1">
+                  annual report 2014 filetype:pdf |
+                </p>
+                <i class="bi bi-mic searchbarmic px-2 "></i>
+                <i class="bi bi-search searchbarsearch px-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-ten">
+          <div class="card-body">
+            <h4 class="text-end card-title-ten">
+              Search for <u>a number range</u>
+            </h4>
+            <div class="d-flex flex-row-reverse justify-content-center m-2">
+              <h1 class=" d-flex justify-content-center card-title-ten-head p-1 m-1"><i class="bi bi-dot"></i><i
+                  class="bi bi-dot"></i></i></h1>
+              <p class="card-title-ten-para p-1 m-1">
+                Separate numbers by two periods to see results that contain
+                numbers in the given range.
+              </p>
+            </div>
+            <div class="d-flex searchbar">
+              <p class="cardsearchbarpara p-1">dslr $300..$500 |</p>
+              <i class="bi bi-mic searchbarmic px-2"></i>
+              <i class="bi bi-search searchbarsearch px-2"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-eleven">
+          <div class="card-body">
+            <h4 class="card-title-eleven"><u>Blank</u></h4>
+            <div class="d-flex justify-content-center m-2">
+              <h1 class="card-title-eleven-head p-1 m-1"><i class="bi bi-asterisk"></i></h1>
+              <p class="card-title-eleven-para p-1 m-1">
+                An asterisk words as a wilk card, and helps you find the
+                missing word in a phrase
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="d-flex searchbar">
+                <p class="cardsearchbarpara p-1">
+                  there is a that never goes * |
+                </p>
+                <i class="bi bi-mic searchbarmic px-2"></i>
+                <i class="bi bi-search searchbarsearch px-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-1 left-card-twelve">
+          <div class="card-body">
+            <h4 class="text-end card-title-twelve"><u>Either word</u></h4>
+            <div class="d-flex flex-row-reverse m-2">
+              <h1 class="card-title-twelve-head p-1 m-1">OR</h1>
+              <p class="card-title-twelve-para p-1 m-1">
+                If you want to find pages with one of several words, use a
+                capitalized OR Without OR, results would show pages that
+                include all the terms.
+              </p>
+            </div>
+            <div class="d-flex searchbar">
+              <p class="cardsearchbarpara p-1">
+                olympics 2012 OR 2016 |
+              </p>
+              <i class="bi bi-mic searchbarmic px-2 
+                "></i>
+              <i class="bi bi-search searchbarsearch px-2"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 rightblock">
+        <div class="container mt-2">
+          <div class="row g-0">
+            <div class="col-6 col-sm-6 col-lg-4 ">
+              <div class="card  right-card-one">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Weather</h3>
+                  <img src="./images/1.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardonefooter">
+                  <h2>Weather &lt;city&gt;</h2>
+                  <p>Weather brooklyn |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-4 ">
+              <div class="card m-1 right-card-two">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Stock Quotes</h3>
+                  <img src="./images/2.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardtwofooter">
+                  <h2>Stock Quotes</h2>
+                  <p>APPL |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-4  ">
+              <div class="card m-1 right-card-three">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Current Time</h3>
+                  <img src="./images/3.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardthreefooter">
+                  <h2>time &lt;city&gt;</h2>
+                  <p>time melbourne |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  col-lg-4 ">
+              <div class="card m-1 right-card-four">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Sports Score</h3>
+                  <img src="./images/4.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardfourfooter">
+                  <h2>&lt;team name&gt;</h2>
+                  <p>manchester united |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  col-lg-4 ">
+              <div class="card m-1 right-card-five">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Calculator</h3>
+                  <img src="./images/5.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardfivefooter">
+                  <h2>&lt;equation&gt;</h2>
+                  <p>91*4|</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  col-lg-4 ">
+              <div class="card m-1 right-card-six">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Sunrise & Sunset Times</h3>
+                  <img src="./images/6.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardsixfooter">
+                  <h2>Sunrise &lt;city&gt;</h2>
+                  <p>Sunrise brooklyn |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  col-lg-4 ">
+              <div class="card m-1 right-card-seven">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Conversion</h3>
+                  <img src="./images/7.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardsevenfooter">
+                  <h2>&lt;amount+unit 1&gt; to &lt;unit 2&gt;</h2>
+                  <p>10 miles to km |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  col-lg-4 ">
+              <div class="card m-1 right-card-eight">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Dictonary</h3>
+                  <img src="./images/8.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardeightfooter">
+                  <h2>define &lt;tern&gt;</h2>
+                  <p>define jingoism |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  col-lg-4 ">
+              <div class="card m-1 right-card-nine">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Translations</h3>
+                  <img src="./images/9.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="cardninefooter">
+                  <h2>translate &lt;word&gt; to &lt;language&gt;</h2>
+                  <p>translate pomme to english |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  col-lg-4 ">
+              <div class="card m-1 right-card-13">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Film Showings</h3>
+                  <img src="./images/13.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="card13footer">
+                  <h2>movies &lt;passcode&gt;</h2>
+                  <p>movies M11EZ |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  col-lg-4 ">
+              <div class="card m-1 right-card-11">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>Flight Statuses</h3>
+                  <img src="./images/11.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="card11footer">
+                  <h2>&lt;flight number&gt;</h2>
+                  <p>BA 117 |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-4  ">
+              <div class="card m-1 right-card-12">
+                <div class="d-flex flex-column align-items-center card-body">
+                  <h3>package Tracting</h3>
+                  <img src="./images/12.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="card12footer">
+                  <h2>&lt;tracking number&gt;</h2>
+                  <p>1Z634678456233446 |</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contain mt-2">
+          <div class="row">
+            <div class="googleicons col-12 col-sm-12">
+              <h3>And besides using search terms, Google also offers you a host of other ways to search.</h3>
+              <div class="d-flex m-2">
+                <img src="./images/Screenshot 2024-01-11 131438.png" height="70vw" alt="" />
+                <div class="d-flex flex-column googleiconsone">
+                  <h4>Google Search Tricks</h4>
+                  <p class="card-title-one-para p-1 m-1">
+                    A useful app for enhancing your Google searches and getting the most from the search engine.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row-reverse m-2">
+                <img src="./images/Screenshot 2024-01-11 131453.png" height="70vw" alt="" />
+                <div class="d-flex flex-column align-items-end  googleiconstwo">
+                  <h4>Google Images</h4>
+                  <p class="card-title-two-para p-1 m-1">
+                    lets you to search for images related to a particular word or phrase, You can also upload or link to
+                    an image to find more about it, or similar images.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex m-2">
+                <img src="./images/Screenshot 2024-01-11 131505.png" height="70vw" alt="" />
+                <div class="d-flex flex-column googleiconsthree">
+                  <h4>Google Goggles</h4>
+                  <p class="card-title-one-para p-1 m-1">
+                    lets you search the Web using your mobile phone's camera instead of words. Simply take a picture of
+                    the item you want to search for, and look at the results.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row-reverse m-2">
+                <img src="./images/Screenshot 2024-01-11 131525.png" height="70vw" alt="" />
+                <div class="d-flex flex-column align-items-end googleiconsfour">
+                  <h4>Google Trends</h4>
+                  <p class="card-title-two-para p-1 m-1">
+                    lets you explore trending search topics on Google and see what other people are searching for. </p>
+                </div>
+              </div>
+              <div class="d-flex m-2">
+                <img src="./images/Screenshot 2024-01-11 131534.png" height="70vw" alt="" />
+                <div class="d-flex flex-column googleiconsfive">
+                  <h4>Google Books</h4>
+                  <p class="card-title-one-para p-1 m-1">
+                    lets you search and preview books from millions of publishers around the world.
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex flex-row-reverse m-2">
+                <img src="./images/Screenshot 2024-01-11 131545.png" height="70vw" alt="" />
+                <div class="d-flex flex-column align-items-end googleiconssix">
+                  <h4>Google Scholar</h4>
+                  <p class="card-title-two-para p-1 m-1">
+                    lets you search for theses, abstracts and articles And for those who just want to have a bit of
+                    fun.try some of these search terms in Google: </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="container mt-2">
+          <div class="row g-0">
+            <div class="col-6 col-sm-6  ">
+              <div class="card m-1 abovefooter-one">
+
+                <div class="d-flex flex-column align-items-center card-body">
+                  <img src="./images/Screenshot 2024-01-11 114531.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="abovefooterone">
+
+                  <p>do a barrel roll |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 ">
+              <div class="card m-1 abovefooter-two">
+                <div class="d-flex flex-column align-items-center card-body">
+
+                  <img src="./images/Screenshot 2024-01-11 114542.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="abovefootertwo">
+
+                  <p>Askew |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 ">
+              <div class="card m-1 abovefooter-three">
+                <div class="d-flex flex-column align-items-center card-body">
+
+                  <img src="./images/Screenshot 2024-01-11 114601.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="abovefooterthree">
+
+                  <p>the loneliest number|</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6  ">
+              <div class="card m-1 abovefooter-four">
+                <div class="d-flex flex-column align-items-center card-body">
+
+                  <img src="./images/Screenshot 2024-01-11 114617.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="abovefooterfour">
+
+                  <p>google in 1998 |</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 ">
+              <div class="card m-1 abovefooter-one">
+                <div class="d-flex flex-column align-items-center card-body">
+
+                  <img src="./images/Screenshot 2024-01-11 114628.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="abovefooterfive">
+
+                  <p>Google sphere |</p>
+                  <h2>google sphere (and click "I'm feeling lucky)</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 ">
+              <div class="card m-1 abovefooter-two">
+                <div class="d-flex flex-column align-items-center card-body">
+
+                  <img src="./images/Screenshot 2024-01-11 115008.png" class="img-fluid" alt="Weather" />
+                </div>
+                <div class="abovefootersix">
+
+                  <p>Atari breakout |</p>
+                  <h2>(in Google Image search)</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-2">
+          <div class="row">
+            <div class="col d-flex flex-column justify-content-center align-items-center footer">
+              <h3>For most, Google is already an incredibly useful resource, but by following these tricks and tips, you
+                can transform it into your most valuable research tool</h3>
+              <h2>Sources</h2>
+              <h4>Steve Nouri</h4>
+              <p>Search <span>Operators-support.google.com</span></p>
+              <p>All tips and tricks-<span>google.com</span></p>
+              <p>What did the world search for in 2013?-<span>google.co.uk</span></p>
+              <p>Search Features-<span>google.com</span></p>
+              <p>Google Developers-<span>code.google.com</span></p>
+              <p>GoogleGuide: making searching even easier - <span>googleguide.com</span></p>
+              <h4>dailytenminutes.com</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

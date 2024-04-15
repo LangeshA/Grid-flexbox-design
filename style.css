@@ -1,0 +1,842 @@
+body {
+  background-color: #f9f3f6;
+}
+.container {
+  background-color: white;
+}
+.leftblock {
+  background-color: #f9f3f6;
+}
+.rightblock {
+  background-color: #f9f3f6;
+}
+.rightblock .container {
+  background-color: #f9f3f6;
+}
+.headerheading {
+  font-size: 3vw;
+  font-weight: lighter;
+}
+.headerpara {
+  font-size: 5.3vw;
+  font-weight: lighter;
+  color: #ba5c5b;
+}
+.headerfooterpara {
+  text-align: center;
+  font-size: 0.8vw;
+  color: grey;
+}
+.greypara {
+  text-align: center;
+  font-size: 1.1vw;
+  color: grey;
+}
+.designedheader {
+  text-align: center;
+  font-size: 3vw;
+  font-weight: lighter;
+  background-color: #e04532;
+  color: white;
+}
+
+.left-card-one {
+  background-color: #dc4430;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-one {
+  background-color: #df574a;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #ffb3a2;
+}
+.card-title-one u {
+  text-underline-offset: 7px;
+}
+.card-title-one-head {
+  font-size: 2.5vw;
+}
+.card-title-one-para {
+  font-size: 1vw;
+  color: #ffb3a2;
+}
+
+.searchbar {
+  background-color: white;
+  color: black;
+  width: 75%;
+  height: 2vw;
+}
+.cardsearchbarpara {
+  display: flex;
+  align-items: center;
+  font-size: 0.7vw;
+  width: 100%;
+  height: 100%;
+}
+.searchbarmic {
+  width: 20%;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbarsearch {
+  width: 20%;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cecfd4;
+  color: white;
+}
+
+.left-card-two {
+  background-color: #507dbd;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-two {
+  background-color: #638ac2;
+  padding: 1px 5px 2px 5px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #98b8e3;
+}
+.card-title-two u {
+  text-underline-offset: 7px;
+}
+.card-title-two-head {
+  font-size: 2.5vw;
+}
+.card-title-two-para {
+  font-size: 1vw;
+  color: #98b8e3;
+}
+
+.left-card-three {
+  background-color: #f6b319;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-three {
+  background-color: #f7bb29;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.2vw;
+  font-weight: lighter;
+  color: #f2d769;
+}
+.card-title-three u {
+  text-underline-offset: 7px;
+}
+.card-title-three-head {
+  font-size: 2.5vw;
+}
+.card-title-three-para {
+  font-size: 1vw;
+  color: #f2d769;
+}
+
+.left-card-four {
+  background-color: #009e5a;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-four {
+  background-color: #19a66b;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #60d9a3;
+}
+.card-title-four u {
+  text-underline-offset: 7px;
+}
+.card-title-four-head {
+  font-size: 2.5vw;
+}
+.card-title-four-para {
+  font-size: 1vw;
+  color: #60d9a3;
+}
+
+.left-card-five {
+  background-color: #dc4430;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-five {
+  background-color: #df574a;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #ffb3a2;
+}
+
+.card-title-five u {
+  text-underline-offset: 7px;
+}
+.card-title-five-head {
+  font-size: 2.5vw;
+}
+.card-title-five-para {
+  font-size: 1vw;
+  color: #ffb3a2;
+}
+
+.left-card-six {
+  background-color: #507dbd;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-six {
+  background-color: #638ac2;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #98b8e3;
+}
+.card-title-six u {
+  text-underline-offset: 7px;
+}
+.card-title-six-head {
+  font-size: 2.5vw;
+}
+.card-title-six-para {
+  font-size: 1vw;
+  color: #98b8e3;
+}
+
+.left-card-seven {
+  background-color: #f6b319;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-seven {
+  background-color: #f7bb29;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #f2d769;
+}
+.card-title-seven u {
+  text-underline-offset: 7px;
+}
+.card-title-seven-head {
+  font-size: 2.5vw;
+}
+.card-title-seven-para {
+  font-size: 1vw;
+  color: #f2d769;
+}
+
+.left-card-eight {
+  background-color: #009e5a;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-eight {
+  background-color: #19a66b;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #60d9a3;
+}
+.card-title-eight u {
+  text-underline-offset: 7px;
+}
+.card-title-eight-head {
+  font-size: 2.5vw;
+}
+.card-title-eight-para {
+  font-size: 1vw;
+  color: #60d9a3;
+}
+
+.left-card-nine {
+  background-color: #dc4430;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-nine {
+  background-color: #df574a;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #ffb3a2;
+}
+.card-title-nine u {
+  text-underline-offset: 7px;
+}
+.card-title-nine-head {
+  font-size: 2.5vw;
+}
+.card-title-nine-para {
+  font-size: 1vw;
+  color: #ffb3a2;
+}
+
+.left-card-ten {
+  background-color: #507dbd;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-ten {
+  background-color: #638ac2;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #98b8e3;
+}
+.card-title-ten u {
+  text-underline-offset: 7px;
+}
+.card-title-ten-head {
+  font-size: 2.5vw;
+}
+.card-title-ten-para {
+  font-size: 1vw;
+  color: #98b8e3;
+}
+
+.left-card-eleven {
+  background-color: #f6b319;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-eleven {
+  background-color: #f7bb29;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #f2d769;
+}
+.card-title-eleven u {
+  text-underline-offset: 7px;
+}
+.card-title-eleven-head {
+  font-size: 2.5vw;
+}
+.card-title-eleven-para {
+  font-size: 1vw;
+  color: #f2d769;
+}
+
+.left-card-twelve {
+  background-color: #009e5a;
+  border-radius: 1px;
+  color: white;
+}
+
+.card-title-twelve {
+  background-color: #19a66b;
+  padding: 5px 10px 8px 10px;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  color: #60d9a3;
+}
+.card-title-twelve u {
+  text-underline-offset: 7px;
+}
+.card-title-twelve-head {
+  font-size: 2.5vw;
+}
+.card-title-twelve-para {
+  font-size: 1vw;
+  color: #60d9a3;
+}
+
+.right-card-one {
+  background-color: #df574a;
+  border-radius: 1px;
+  margin: 0.3vw;
+}
+.right-card-one h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #f79f8e;
+}
+.right-card-one h2 {
+  color: #f79f8e;
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-one p {
+  background-color: white;
+  margin: 5px;
+  padding: 3px;
+  font-size: 0.7vw;
+}
+.cardonefooter {
+  background-color: #dd442e;
+}
+
+.right-card-two {
+  background-color: #628bc5;
+  border-radius: 1px;
+}
+.right-card-two h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #b5d9fb;
+}
+.right-card-two h2 {
+  color: #b5d9fb;
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-two p {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: 0.7vw;
+}
+.cardtwofooter {
+  background-color: #507dbd;
+}
+
+.right-card-three {
+  background-color: #f7bb29;
+  border-radius: 1px;
+}
+.right-card-three h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #f2d769;
+}
+.right-card-three h2 {
+  color: #f2d769;
+  padding: 2px;
+  font-size: 1vw;
+}
+.right-card-three p {
+  background-color: white;
+  padding: 3px;
+  margin: 5px;
+  font-size: 0.7vw;
+}
+.cardthreefooter {
+  background-color: #f6b319;
+}
+
+.right-card-four {
+  background-color: #19a66b;
+  border-radius: 1px;
+}
+.right-card-four h3 {
+  font-size: 1.4vw;
+  text-align: center;
+  color: #60d9a3;
+}
+.right-card-four h2 {
+  color: #60d9a3;
+  padding: 10px;
+  font-size: 1vw;
+}
+.right-card-four p {
+  background-color: white;
+  padding: 7px;
+  margin: 10px;
+  font-size: 1vw;
+}
+.cardfourfooter {
+  background-color: #009e5a;
+}
+
+.right-card-five {
+  background-color: #f7bb29;
+  border-radius: 1px;
+}
+.right-card-five h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #f2d769;
+}
+.right-card-five h2 {
+  color: #f2d769;
+
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-five p {
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 1vw;
+}
+.cardfivefooter {
+  background-color: #f6b319;
+}
+
+.right-card-six {
+  background-color: #df574a;
+  border-radius: 1px;
+}
+.right-card-six h3 {
+  font-size: 0.9vw;
+  text-align: center;
+  color: #f79f8e;
+}
+.right-card-six h2 {
+  color: #f79f8e;
+
+  padding: 5px;
+  font-size: 1.1vw;
+}
+.right-card-six p {
+  background-color: white;
+  padding: 7px;
+  margin: 6px;
+  font-size: 0.7vw;
+}
+.cardsixfooter {
+  background-color: #dd442e;
+}
+
+.right-card-seven {
+  background-color: #628bc5;
+  border-radius: 1px;
+}
+.right-card-seven h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #b5d9fb;
+}
+.right-card-seven h2 {
+  color: #b5d9fb;
+
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-seven p {
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: 0.7vw;
+}
+.cardsevenfooter {
+  background-color: #507dbd;
+}
+
+.right-card-eight {
+  background-color: #df574a;
+  border-radius: 1px;
+}
+.right-card-eight h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #f79f8e;
+}
+.right-card-eight h2 {
+  color: #f79f8e;
+
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-eight p {
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.7vw;
+}
+.cardeightfooter {
+  background-color: #dd442e;
+}
+
+.right-card-nine {
+  background-color: #19a66b;
+  border-radius: 1px;
+}
+.right-card-nine h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #60d9a3;
+}
+.right-card-nine h2 {
+  color: #60d9a3;
+
+  padding: 3px;
+  font-size: 1vw;
+}
+.right-card-nine p {
+  background-color: white;
+  padding: 4px;
+  margin: 5px;
+  font-size: 0.7vw;
+}
+.cardninefooter {
+  background-color: #009e5a;
+}
+
+.right-card-ten {
+  background-color: #f7bb29;
+  border-radius: 1px;
+}
+.right-card-ten h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #f2d769;
+}
+.right-card-ten h2 {
+  color: #f2d769;
+
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-ten p {
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.7vw;
+}
+.cardtenfooter {
+  background-color: #f6b319;
+}
+
+.right-card-11 {
+  background-color: #628bc5;
+  border-radius: 1px;
+}
+.right-card-11 h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #b5d9fb;
+}
+.right-card-11 h2 {
+  color: #b5d9fb;
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-11 p {
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.7vw;
+}
+.card11footer {
+  background-color: #507dbd;
+}
+
+.right-card-12 {
+  background-color: #f7bb29;
+  border-radius: 1px;
+}
+.right-card-12 h3 {
+  font-size: 1.2vw;
+  text-align: center;
+  color: #f2d769;
+}
+.right-card-12 h2 {
+  color: #f2d769;
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-12 p {
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.7vw;
+}
+.card12footer {
+  background-color: #f6b319;
+}
+
+.right-card-13 {
+  background-color: #19a66b;
+  border-radius: 1px;
+}
+.right-card-13 h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  color: #60d9a3;
+}
+.right-card-13 h2 {
+  color: #60d9a3;
+  padding: 5px;
+  font-size: 1vw;
+}
+.right-card-13 p {
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.7vw;
+}
+.card13footer {
+  background-color: #009e5a;
+}
+.googleicons {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px;
+}
+.googleicons h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  padding: 2vw;
+  margin: 1vw 5vw;
+  color: #aaa9ab;
+}
+.googleicons p {
+  font-size: 1.2vw;
+  padding: 5px;
+  margin: 5px;
+  color: #aaa9ab;
+}
+
+.googleiconsone h4 {
+  font-size: 1.5vw;
+  margin: 5px 5px 0px 5px;
+  color: #dd442e;
+}
+.googleiconstwo h4 {
+  font-size: 1.5vw;
+  margin: 5px 5px 0px 5px;
+  color: #507dbd;
+}
+.googleiconsthree h4 {
+  font-size: 1.5vw;
+  margin: 5px 5px 0px 5px;
+  color: #f6b319;
+}
+.googleiconsfour h4 {
+  font-size: 1.5vw;
+  margin: 5px 5px 0px 5px;
+  color: #009e5a;
+}
+.googleiconsfive h4 {
+  font-size: 1.5vw;
+  margin: 5px 5px 0px 5px;
+  color: #dd442e;
+}
+.googleiconssix h4 {
+  font-size: 1.5vw;
+  margin: 5px 5px 0px 5px;
+  color: #507dbd;
+}
+.abovefooter {
+  padding: 1px;
+}
+.footer {
+  padding: 1px;
+}
+.footer h3 {
+  font-size: 1.1vw;
+  text-align: center;
+  margin: 1vw 5vw;
+  color: #aaa9ab;
+}
+.footer p {
+  text-align: center;
+  font-size: 1vw;
+margin: -1px;
+  color: #aaa9ab;
+}
+.footer span {
+  text-align: center;
+  font-size: 1.1vw;
+
+  color: #009c59;
+}
+.footer h4 {
+  text-align: center;
+  font-size: 1.4vw;
+  color: #009c59;
+}
+.footer h2 {
+  font-size: 2.2vw;
+  text-align: center;
+  width: 30%;
+  font-weight: lighter;
+  background-color: #009e5a;
+  color: #60d9a3;
+}
+.abovefooter {
+  padding: 1px;
+}
+.abovefooter-one {
+  background-color: #da4c32;
+  
+  border-radius: 1px;
+}
+
+.abovefooterone p {
+  background-color: white;
+  margin: 0.5vw;
+  font-size: 1.2vw;
+}
+.abovefooter-two {
+  background-color: #517dbc;
+  
+  border-radius: 1px;
+}
+
+.abovefootertwo p {
+  background-color: white;
+  margin: 0.5vw;
+  font-size: 1.2vw;
+}
+.abovefooter-three {
+  background-color: #f7b219;
+  border-radius: 1px;
+}
+
+.abovefooterthree p {
+  background-color: white;
+  margin: 0.5vw;
+  font-size: 1.2vw;
+}
+.abovefooter-four {
+  background-color: #19a66b;
+  border-radius: 1px;
+}
+
+.abovefooterfour p {
+  background-color: white;
+  margin: 0.5vw;
+  font-size: 1.2vw;
+}
+.abovefooter-five {
+  background-color: #da4c32;
+  border-radius: 1px;
+}
+
+.abovefooterfive p {
+  background-color: white;
+  margin: 0.5vw;
+  font-size: 1.2vw;
+}
+.abovefooterfive h2 {
+  color: #f79f8e;
+  font-size: 0.9vw;
+  padding: 5px;
+}
+
+.abovefooter-six {
+  background-color: #517dbc;
+  border-radius: 1px;
+}
+
+.abovefootersix p {
+  background-color: white;
+  margin: 0.5vw;
+  font-size: 0.9vw;
+}
+.abovefootersix h2 {
+  color: #b5d9fb;
+  font-size: 1.2vw;
+  padding: 5px;
+}
